@@ -1,0 +1,26 @@
+{
+    "name": "comperio/installers",
+    "type": "composer-plugin",
+    "keywords": ["comperio", "dng", "clavisng"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolò Martini",
+            "email": "nicmartnic@gmail.com",
+            "web": "http://nicolo.martini.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Comperio\\Installers": "src/",
+            "Comperio\\Installers\\Test": "tests"
+        }
+    }
+}
+
